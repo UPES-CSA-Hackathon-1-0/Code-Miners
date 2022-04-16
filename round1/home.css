@@ -1,0 +1,75 @@
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    background: linear-gradient(rgba(22, 22, 22, 0.6), rgba(16, 16, 16, 0.6)), url("homepagebg.jpg");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    animation: change 10s infinite ease-in-out;
+}
+.welcome_text{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome_text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.welcome_text a{
+    border: 1px solid  #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome_text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(img2.jpg);
+    }
+    20%
+    {
+        background-image: url(img3.jpg);
+    }
+    40%
+    {
+        background-image: url(img4.jpg);
+    }
+    60%
+    {
+        background-image: url(img5.jpg);
+    }
+    80%
+    {
+        background-image: url(img6.jpg);
+    }
+    100%
+    {
+        background-image: url(img7.jpg);
+    }
+    
+}
